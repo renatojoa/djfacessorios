@@ -65,6 +65,14 @@ export default function AdminDashboard() {
       category: "Fones",
       isFeatured: true,
     },
+    {
+      id: "hsjblq",
+      name: "Headset Gamer JBL Quantum 100m2, Com Mic, Drivers 40mm, Roxo - 28913837",
+      price: 179.99,
+      originalPrice: 224.43,
+      category: "Fones",
+      isFeatured: true,
+    },
   ])
 
   useEffect(() => {
@@ -328,9 +336,9 @@ export default function AdminDashboard() {
                   </TableHeader>
                   <TableBody>
                     <TableRow className="border-gray-800">
-                      <TableCell className="font-medium text-white">DJF Centro</TableCell>
-                      <TableCell>Rua Exemplo, 123, Centro, São Paulo - SP</TableCell>
-                      <TableCell>(11) 1234-5678</TableCell>
+                      <TableCell className="font-medium text-white">DJF Shopping Guararapes</TableCell>
+                      <TableCell>Av. Barreto de Menezes, N° 800 - Piedade, Jaboatão dos Guararapes - PE, 54410-902</TableCell>
+                      <TableCell>(81) 3094-3194</TableCell>
                       <TableCell className="text-right">
                         <div className="flex justify-end gap-2">
                           <Button variant="ghost" size="icon" className="text-white hover:text-green-400">
